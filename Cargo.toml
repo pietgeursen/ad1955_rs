@@ -1,0 +1,10 @@
+[package]
+name = "ad1955"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-hal = "0.2.7"
+nb = "1.1.0"
+packed_struct = {version = "0.10.1", default_features = false }
+spi_read_modify_write_packed_struct = { path = "../spi_read_modify_write_packed_struct" }
